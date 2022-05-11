@@ -1,13 +1,1046 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600");
+
+.frame-1 {
+  background-color: 
+#000000;
+  height: 4649px;
+  position: relative;
+  width: 1440px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.group-6-1 {
+  height: 250px;
+  left: 120px;
+  position: absolute;
+  top: 1501px;
+  width: 373px;
+}
+
+.group-6-4 {
+  height: 250px;
+  left: 946px;
+  position: absolute;
+  top: 1125px;
+  width: 373px;
+}
+
+.number-4 {
+  left: 120px;
+  letter-spacing: 0;
+  line-height: 35px;
+  opacity: 0.34;
+  position: absolute;
+  top: 4227px;
+  white-space: nowrap;
+}
+
+.x125-courses-4 {
+  left: 441px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  opacity: 0.5;
+  position: absolute;
+  top: 4483px;
+  white-space: nowrap;
+}
+
+.address-1 {
+  left: 140px;
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.67;
+  position: absolute;
+  top: 1783px;
+  white-space: nowrap;
+}
+
+.path-4 {
+  height: 2px;
+  left: 120px;
+  position: absolute;
+  top: 4146px;
+  width: 1200px;
+}
+
+.overlap-group19 {
+  height: 733px;
+  left: 96px;
+  position: absolute;
+  top: 1921px;
+  width: 1320px;
+}
+
+.overlap-group1 {
+  height: 733px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1320px;
+}
+
+.fill-146 {
+  height: 4px;
+  left: 458px;
+  position: absolute;
+  top: 594px;
+  width: 4px;
+}
+
+.fill-134 {
+  height: 4px;
+  left: 375px;
+  position: absolute;
+  top: 531px;
+  width: 5px;
+}
+
+.lorem-ipsum-dolor-si-1 {
+  left: 642px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  opacity: 0.7;
+  position: absolute;
+  top: 130px;
+  width: 560px;
+}
+
+.fill-124 {
+  height: 3px;
+  left: 303px;
+  position: absolute;
+  top: 557px;
+  width: 4px;
+}
+
+.fill-126 {
+  height: 3px;
+  left: 296px;
+  position: absolute;
+  top: 558px;
+  width: 5px;
+}
+
+.fill-133 {
+  height: 3px;
+  left: 300px;
+  position: absolute;
+  top: 535px;
+  width: 3px;
+}
+
+.fill-144 {
+  height: 2px;
+  left: 473px;
+  position: absolute;
+  top: 579px;
+  width: 3px;
+}
+
+.fill-150 {
+  height: 4px;
+  left: 478px;
+  position: absolute;
+  top: 575px;
+  width: 6px;
+}
+
+.rectangle-11 {
+  background-color: var(--white);
+  height: 733px;
+  left: 321px;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  width: 999px;
+}
+
+.fill-148 {
+  height: 2px;
+  left: 413px;
+  position: absolute;
+  top: 599px;
+  width: 11px;
+}
+
+.fill-127 {
+  height: 8px;
+  left: 226px;
+  position: absolute;
+  top: 556px;
+  width: 22px;
+}
+
+.rectangle-4 {
+  background-color: var(--green);
+  border-radius: 10px;
+  height: 70px;
+  left: 642px;
+  position: absolute;
+  top: 380px;
+  width: 200px;
+}
+
+.fill-122 {
+  height: 3px;
+  left: 346px;
+  position: absolute;
+  top: 540px;
+  width: 14px;
+}
+
+.fill-149 {
+  height: 3px;
+  left: 406px;
+  position: absolute;
+  top: 598px;
+  width: 8px;
+}
+
+.fill-130 {
+  height: 2px;
+  left: 416px;
+  position: absolute;
+  top: 537px;
+  width: 4px;
+}
+
+.fill-132 {
+  height: 4px;
+  left: 328px;
+  position: absolute;
+  top: 531px;
+  width: 13px;
+}
+
+.fill-125 {
+  height: 6px;
+  left: 385px;
+  position: absolute;
+  top: 530px;
+  width: 15px;
+}
+
+.fill-135 {
+  height: 3px;
+  left: 341px;
+  position: absolute;
+  top: 594px;
+  width: 5px;
+}
+
+.fill-141 {
+  height: 2px;
+  left: 394px;
+  position: absolute;
+  top: 598px;
+  width: 9px;
+}
+
+.fill-145 {
+  height: 2px;
+  left: 446px;
+  position: absolute;
+  top: 601px;
+  width: 9px;
+}
+
+.fill-147 {
+  height: 3px;
+  left: 439px;
+  position: absolute;
+  top: 593px;
+  width: 6px;
+}
+
+.get-started-1 {
+  left: 685px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  position: absolute;
+  top: 404px;
+  white-space: nowrap;
+}
+
+.fill-143 {
+  height: 3px;
+  left: 430px;
+  position: absolute;
+  top: 600px;
+  width: 8px;
+}
+
+.fill-128 {
+  height: 3px;
+  left: 332px;
+  position: absolute;
+  top: 541px;
+  width: 5px;
+}
+
+.workout-program-made-for-you {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: 120px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: -2px;
+  line-height: 120px;
+  position: absolute;
+  top: 100px;
+}
+
+.fill-142 {
+  height: 5px;
+  left: 456px;
+  position: absolute;
+  top: 565px;
+  width: 11px;
+}
+
+.fill-131 {
+  height: 7px;
+  left: 306px;
+  position: absolute;
+  top: 531px;
+  width: 19px;
+}
+
+.fill-123 {
+  height: 3px;
+  left: 216px;
+  position: absolute;
+  top: 561px;
+  width: 8px;
+}
+
+.fill-129 {
+  height: 26px;
+  left: 370px;
+  position: absolute;
+  top: 532px;
+  width: 108px;
+}
+
+.fill-136 {
+  height: 3px;
+  left: 313px;
+  position: absolute;
+  top: 595px;
+  width: 4px;
+}
+
+.x125-courses-1 {
+  left: 441px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  opacity: 0.5;
+  position: absolute;
+  top: 3870px;
+  white-space: nowrap;
+}
+
+.path-container-1 {
+  height: 22px;
+  left: 1295px;
+  position: absolute;
+  top: 3828px;
+  width: 25px;
+}
+
+.path-3 {
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 25px;
+}
+
+.path {
+  height: 22px;
+  left: 9px;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.overlap-group18 {
+  height: 1170px;
+  left: 100px;
+  position: absolute;
+  top: 21px;
+  width: 1309px;
+}
+
+.overlap-group15 {
+  align-items: center;
+  background-color: var(--green);
+  border-radius: 10px;
+  display: flex;
+  height: 70px;
+  justify-content: flex-end;
+  left: 20px;
+  min-width: 200px;
+  padding: 0 41px;
+  position: absolute;
+  top: 749px;
+}
+
+.get-started {
+  letter-spacing: 1px;
+  line-height: 22px;
+  min-height: 22px;
+  min-width: 116px;
+  white-space: nowrap;
+}
+
+.overlap-group {
+  height: 1170px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1309px;
+}
+
+.text-1 {
+  color: 
+#ffe642;
+  font-family: var(--font-family-poppins);
+  font-size: 40px;
+  font-weight: 600;
+  left: 1084px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  position: absolute;
+  top: 334px;
+  white-space: nowrap;
+}
+
+.rectangle-5 {
+  background-color: var(--white);
+  border-radius: 20px;
+  height: 98px;
+  left: 1054px;
+  opacity: 0.1;
+  position: absolute;
+  top: 314px;
+  width: 166px;
+}
+
+.see-more-exercises {
+  left: 1075px;
+  letter-spacing: 1.5px;
+  line-height: 12px;
+  opacity: 0.67;
+  position: absolute;
+  top: 1038px;
+  white-space: nowrap;
+}
+
+.nav {
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 19px;
+  width: 1240px;
+}
+
+.est-calories {
+  left: 1084px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  position: absolute;
+  top: 497px;
+  white-space: nowrap;
+}
+
+.image-1 {
+  height: 1170px;
+  left: 529px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 780px;
+}
+
+.time {
+  left: 1084px;
+  letter-spacing: 1px;
+  line-height: 13px;
+  position: absolute;
+  top: 379px;
+  white-space: nowrap;
+}
+
+.lorem-ipsum-dolor-si {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0.5px;
+  line-height: 29px;
+  opacity: 0.5;
+  position: absolute;
+  top: 641px;
+  width: 602px;
+}
+
+.rectangle-6 {
+  background-color: var(--white);
+  border-radius: 20px;
+  height: 105px;
+  left: 1054px;
+  opacity: 0.1;
+  position: absolute;
+  top: 432px;
+  width: 166px;
+}
+
+.number {
+  color: 
+#fb1351;
+  font-family: var(--font-family-poppins);
+  font-size: 40px;
+  font-weight: 600;
+  left: 1084px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  position: absolute;
+  top: 452px;
+  white-space: nowrap;
+}
+
+.overlap-group8 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 200px;
+  display: flex;
+  height: 36px;
+  left: 20px;
+  min-width: 329px;
+  padding: 0 5px;
+  position: absolute;
+  top: 192px;
+}
+
+.high-intensity-workout-to-burn-calories {
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  margin-left: 15px;
+  min-height: 18px;
+  min-width: 250px;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+
+.overlap-group17 {
+  align-items: center;
+  background-color: var(--green);
+  border-radius: 200px;
+  display: flex;
+  height: 26px;
+  justify-content: flex-end;
+  min-width: 46px;
+  padding: 0 8px;
+}
+
+.new {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 18px;
+  min-height: 18px;
+  min-width: 28px;
+  white-space: nowrap;
+}
+
+.overlap-group5 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 10px;
+  display: flex;
+  height: 70px;
+  justify-content: flex-end;
+  left: 250px;
+  min-width: 200px;
+  padding: 0 59px;
+  position: absolute;
+  top: 749px;
+}
+
+.preview {
+  letter-spacing: 1px;
+  line-height: 22px;
+  min-height: 22px;
+  min-width: 80px;
+  white-space: nowrap;
+}
+
+.popular-exercises {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: 35px;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  position: absolute;
+  top: 1009px;
+  white-space: nowrap;
+}
+
+.overlap-group9 {
+  height: 29px;
+  left: 421px;
+  position: absolute;
+  top: 1346px;
+  width: 74px;
+}
+
+.text {
+  left: 10px;
+  letter-spacing: 1.37px;
+  line-height: 19px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+}
+
+.rectangle-10 {
+  height: 29px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 72px;
+}
+
+.web-development-1 {
+  left: 441px;
+  letter-spacing: 0.83px;
+  line-height: 70px;
+  position: absolute;
+  top: 4403px;
+  white-space: nowrap;
+}
+
+.x125-courses {
+  left: 441px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  opacity: 0.5;
+  position: absolute;
+  top: 3666px;
+  white-space: nowrap;
+}
+
+.group-6-2 {
+  height: 250px;
+  left: 533px;
+  position: absolute;
+  top: 1125px;
+  width: 373px;
+}
+
+.graphic-design {
+  left: 441px;
+  letter-spacing: 0.83px;
+  line-height: 70px;
+  position: absolute;
+  top: 3586px;
+  white-space: nowrap;
+}
+
+.path-container-4 {
+  height: 22px;
+  left: 1295px;
+  position: absolute;
+  top: 4236px;
+  width: 25px;
+}
+
+.lifting {
+  left: 553px;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  position: absolute;
+  top: 1723px;
+  white-space: nowrap;
+}
+
+.overlap-group4 {
+  height: 733px;
+  left: 82px;
+  position: absolute;
+  top: 2712px;
+  width: 1288px;
+}
+
+.get-started-2 {
+  left: 364px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  position: absolute;
+  top: 404px;
+  white-space: nowrap;
+}
+
+.rectangle-11-1 {
+  background-color: var(--white);
+  height: 733px;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  width: 999px;
+}
+
+.create-personalized-routines {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: 64px;
+  font-weight: 600;
+  left: 638px;
+  letter-spacing: -2px;
+  line-height: 120px;
+  position: absolute;
+  top: 407px;
+  width: 650px;
+}
+
+.rectangle-4-1 {
+  background-color: var(--green);
+  border-radius: 10px;
+  height: 70px;
+  left: 321px;
+  position: absolute;
+  top: 380px;
+  width: 200px;
+}
+
+.lorem-ipsum-dolor-si-2 {
+  left: 321px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  opacity: 0.7;
+  position: absolute;
+  top: 130px;
+  width: 560px;
+}
+
+.overlap-group2 {
+  height: 29px;
+  left: 834px;
+  position: absolute;
+  top: 1346px;
+  width: 74px;
+}
+
+.number-2 {
+  left: 120px;
+  letter-spacing: 0;
+  line-height: 35px;
+  opacity: 0.34;
+  position: absolute;
+  top: 3819px;
+  white-space: nowrap;
+}
+
+.photography {
+  left: 441px;
+  letter-spacing: 0.83px;
+  line-height: 70px;
+  position: absolute;
+  top: 3790px;
+  white-space: nowrap;
+}
+
+.path-2 {
+  height: 2px;
+  left: 120px;
+  position: absolute;
+  top: 3942px;
+  width: 1200px;
+}
+
+.address-2 {
+  left: 553px;
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.67;
+  position: absolute;
+  top: 1407px;
+  white-space: nowrap;
+}
+
+.web-development {
+  left: 441px;
+  letter-spacing: 0.83px;
+  line-height: 70px;
+  position: absolute;
+  top: 4198px;
+  white-space: nowrap;
+}
+
+.path-5 {
+  height: 2px;
+  left: 120px;
+  position: absolute;
+  top: 4351px;
+  width: 1200px;
+}
+
+.address-3 {
+  left: 553px;
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.67;
+  position: absolute;
+  top: 1783px;
+  white-space: nowrap;
+}
+
+.push-up {
+  left: 966px;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  position: absolute;
+  top: 1723px;
+  white-space: nowrap;
+}
+
+.illustration {
+  left: 441px;
+  letter-spacing: 0.83px;
+  line-height: 70px;
+  position: absolute;
+  top: 3994px;
+  white-space: nowrap;
+}
+
+.overlap-group6 {
+  height: 29px;
+  left: 1247px;
+  position: absolute;
+  top: 1346px;
+  width: 74px;
+}
+
+.running {
+  left: 140px;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  position: absolute;
+  top: 1723px;
+  white-space: nowrap;
+}
+
+.group-6 {
+  height: 250px;
+  left: 120px;
+  position: absolute;
+  top: 1125px;
+  width: 373px;
+}
+
+.path-1 {
+  height: 2px;
+  left: 120px;
+  position: absolute;
+  top: 3738px;
+  width: 1200px;
+}
+
+.x125-courses-2 {
+  left: 441px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  opacity: 0.5;
+  position: absolute;
+  top: 4074px;
+  white-space: nowrap;
+}
+
+.x126 {
+  left: 120px;
+  letter-spacing: 0;
+  line-height: 35px;
+  opacity: 0.34;
+  position: absolute;
+  top: 4432px;
+  white-space: nowrap;
+}
+
+.yoga {
+  left: 966px;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  position: absolute;
+  top: 1347px;
+  white-space: nowrap;
+}
+
+.overlap-group3 {
+  height: 29px;
+  left: 421px;
+  position: absolute;
+  top: 1722px;
+  width: 74px;
+}
+
+.number-1 {
+  left: 120px;
+  letter-spacing: 0;
+  line-height: 35px;
+  opacity: 0.34;
+  position: absolute;
+  top: 3615px;
+  white-space: nowrap;
+}
+
+.path-container {
+  height: 22px;
+  left: 1295px;
+  position: absolute;
+  top: 3624px;
+  width: 25px;
+}
+
+.group-6-3 {
+  height: 250px;
+  left: 533px;
+  position: absolute;
+  top: 1501px;
+  width: 373px;
+}
+
+.stretching {
+  left: 553px;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  position: absolute;
+  top: 1347px;
+  white-space: nowrap;
+}
+
+.x125-courses-3 {
+  left: 441px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  opacity: 0.5;
+  position: absolute;
+  top: 4278px;
+  white-space: nowrap;
+}
+
+.address {
+  left: 140px;
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.67;
+  position: absolute;
+  top: 1407px;
+  white-space: nowrap;
+}
+
+.treadmill {
+  left: 140px;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  position: absolute;
+  top: 1347px;
+  white-space: nowrap;
+}
+
+.number-3 {
+  left: 120px;
+  letter-spacing: 0;
+  line-height: 35px;
+  opacity: 0.34;
+  position: absolute;
+  top: 4023px;
+  white-space: nowrap;
+}
+
+.group-1 {
+  height: 384px;
+  left: 66px;
+  position: absolute;
+  top: 266px;
+  width: 871px;
+}
+
+.group-6-5 {
+  height: 250px;
+  left: 946px;
+  position: absolute;
+  top: 1501px;
+  width: 373px;
+}
+
+.overlap-group7 {
+  height: 29px;
+  left: 1247px;
+  position: absolute;
+  top: 1722px;
+  width: 74px;
+}
+
+.group-140 {
+  height: 201px;
+  left: 66px;
+  position: absolute;
+  top: 2398px;
+  width: 516px;
+}
+
+.address-4 {
+  left: 966px;
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.67;
+  position: absolute;
+  top: 1407px;
+  white-space: nowrap;
+}
+
+.overlap-group11 {
+  height: 29px;
+  left: 834px;
+  position: absolute;
+  top: 1722px;
+  width: 74px;
+}
+
+.path-container-2 {
+  height: 22px;
+  left: 1295px;
+  position: absolute;
+  top: 4032px;
+  width: 25px;
+}
+
+.path-container-3 {
+  height: 22px;
+  left: 1295px;
+  position: absolute;
+  top: 4441px;
+  width: 25px;
+}
+
+.address-5 {
+  left: 966px;
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.67;
+  position: absolute;
+  top: 1783px;
+  white-space: nowrap;
 }
