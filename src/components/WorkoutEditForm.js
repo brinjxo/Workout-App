@@ -61,7 +61,7 @@ const WorkoutEditForm = ({ onUpdateWorkout }) => {
       <label htmlFor="about">About</label>
       <textarea id="about" name="about" value={about} onChange={handleChange} />
 
-      <label htmlFor="image">Screenshot</label>
+      <label htmlFor="image">Image</label>
       <input
         type="text"
         id="image"

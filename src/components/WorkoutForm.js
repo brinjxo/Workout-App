@@ -57,7 +57,7 @@ const WorkoutForm = ({ onAddWorkout }) => {
           value={formData.about}
         />
 
-        <label htmlFor="image">Screenshot</label>
+        <label htmlFor="image">Image</label>
         <input
           type="text"
           id="image"
