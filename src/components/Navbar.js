@@ -1,5 +1,7 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import {BrowserRouter as Router, Route, Link, NavLink, Routes} from 'react-router-dom';
+//import { Router, Routes, Route } from 'react-router-dom';
+//import { Link, NavLink } from "react-router-dom";
 
 const Header = ({ isDarkMode, onToggleDarkMode }) => {
   const buttonTextContent = isDarkMode ? "Light Mode" : "Dark Mode";
@@ -9,12 +11,12 @@ const Header = ({ isDarkMode, onToggleDarkMode }) => {
       <nav>
         <Link to="/" style={{borderBottom: "none"}}>
           <h1 className="branding">
-            <span className="logo">{"Workout"}</span>
+            <span className="logo">{"🏋️"}</span>
             Workout app
           </h1>
         </Link>
         <div className="navigation">
-          <NavLink className="button" exact to="/workouts">
+          <NavLink className="button" exact to="/workouts/all">
             All Exercises
           </NavLink>
           <NavLink className="button" exact to="/workouts/new">

@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 const Home = () => {
@@ -16,8 +17,7 @@ const Home = () => {
     <section className="box">
       <h2 style={{ fontSize: "3rem" }}>View Exercises.</h2>
       <p>
-        Looking for someone to hire? Check out these awesome workoutss from
-        Flatiron students.
+        
       </p>
       <h3>Recent Exercises:</h3>
       {recentWorkouts.map((workouts) => (
