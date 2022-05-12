@@ -2,26 +2,26 @@
     "workouts": [{
         "id": 1,
         "name": "Push Ups",
-        "instructions": "Lie face down on the floor with your palms flat on the floor, under your shoulders, Slowly push up using your arm strength while keeping your body straight like a plank and balancing on your toes and then lower yourself back down to about 2 inches from the floor",
+        "about": "Lie face down on the floor with your palms flat on the floor, under your shoulders, Slowly push up using your arm strength while keeping your body straight like a plank and balancing on your toes and then lower yourself back down to about 2 inches from the floor",
         "target": "Upper arms, chest, torso",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfqEDlw5tz8TPaLfTaUYCv7UPBw2TEvm9cpw&usqp=CAU"
         
     }, {
         "id": 2,
         "name": "Overhead Weight Tricep Extension",
-        "instructions": "HOLD A WEIGHT OVER AND BEHIND YOUR HEAD AT A STANDING POSITION. STRAIGHTEN YOUR ARMS UP SLIGHTLY TOWARD THE SKY (LEAVING A SLIGHT BEND AT THE ARMS).LOWER IT BACK DOWN TO START.",
+        "about": "HOLD A WEIGHT OVER AND BEHIND YOUR HEAD AT A STANDING POSITION. STRAIGHTEN YOUR ARMS UP SLIGHTLY TOWARD THE SKY (LEAVING A SLIGHT BEND AT THE ARMS).LOWER IT BACK DOWN TO START.",
         "target": "Triceps",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxLTJAXGuxENTlQwy5PEu9T9JqzIB6KlefS3DrRElf4ZoNMm_y171BlUxuNmWg6Ncuiwo&usqp=CAU"
     }, {
         "id": 3,
         "name": "Bicep Curls",
-        "instructions": "STAND WITH FEET SHOULDER WIDTH APART. HOLD THE WEIGHT IN ONE HAND WHILE YOU REST YOUR FREE HAND ON YOUR HIP. USE YOUR BICEP MUSCLES AND TIGHTEN YOUR CORE AS YOU PULL THE WEIGHT UP TOWARD YOUR CHEST. DON'T LET THE WEIGHT DROP ON THE WAY DOWN, SLOW IT DOWN.",
+        "about": "STAND WITH FEET SHOULDER WIDTH APART. HOLD THE WEIGHT IN ONE HAND WHILE YOU REST YOUR FREE HAND ON YOUR HIP. USE YOUR BICEP MUSCLES AND TIGHTEN YOUR CORE AS YOU PULL THE WEIGHT UP TOWARD YOUR CHEST. DON'T LET THE WEIGHT DROP ON THE WAY DOWN, SLOW IT DOWN.",
         "target": "Biceps",
         "image":"https://www.pngitem.com/pimgs/m/232-2321321_standing-dumbbell-bicep-curls-biceps-curl-hd-png.png"
     }, {
         "id": 4,
         "name": "Russian twists",
-        "instructions": "At a sit up position, sit up and hold your hands together in front of your chest, or hold a weight. Twist your torso while engaging your core from side to side. Make sure to touch the ground on each side of you to truly get the full stretch and workout. For an added challenge, lift your feet from the ground while you do this.",
+        "about": "At a sit up position, sit up and hold your hands together in front of your chest, or hold a weight. Twist your torso while engaging your core from side to side. Make sure to touch the ground on each side of you to truly get the full stretch and workout. For an added challenge, lift your feet from the ground while you do this.",
         "target": "Core",
         "image":"https://gethealthyu.com/wp-content/uploads/2014/08/Russian-Twist_Exercise.jpg"
     }]

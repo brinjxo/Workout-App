@@ -1,19 +1,42 @@
-import React, {useState, useEffect} from 'react';
-import { Switch, Route } from "react-router-dom";
-import WorkoutDetails from './WorkoutDetails'
+import WorkoutListItem from "./WorkoutListItem";
+import { useState } from "react";
 
+const WorkoutList = ({
+  workouts,
+  enterWorkoutEditModeFor,
+  onDeleteWorkout,
+}) => {
+  const [searchQuery, setSearchQuery] = useState("");
 
-function WorkoutList() {
+  const searchResults = workouts.filter((workout) => {
+    return workout.name.toLowerCase().includes(searchQuery.toLowerCase());
+  });
+
+  const workoutItems = searchResults.map((workout) => {
     return (
-        <div>
-            <Switch>
-                <Route path="/workout/:id">
-                    <WorkoutDetails />
-                </Route>
-            </Switch>
-        </div>
-    )
-}
+      <WorkoutListItem
+        key={workout.id}
+        workout={workout}
+        enterWorkoutEditModeFor={enterWorkoutEditModeFor}
+        onDeleteWorkout={onDeleteWorkout}
+      />
+    );
+  });
 
+  const handleOnChange = (e) => setSearchQuery(e.target.value);
 
-export default WorkoutList
+  return (
+    <section>
+      <h2>Workouts</h2>
+
+      <div className="filter">
+        
+      </div>
+      <input type="text" placeholder="Search..." onChange={handleOnChange} />
+
+      <ul className="cards">{workoutItems}</ul>
+    </section>
+  );
+};
+
+export default WorkoutList;
