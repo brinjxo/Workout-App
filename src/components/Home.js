@@ -21,7 +21,7 @@ const Home = () => {
       {recentWorkouts.map((workout) => (
         <div key={workout.id}>
           <h2>{workout.name}</h2>
-          <img src={workout.image} alt={workout.name} />
+          <img className="homeImg"src={workout.image} alt={workout.name} />
           {/* <p >{workout.about}</p> */}
         </div>
       ))}

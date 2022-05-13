@@ -14,6 +14,7 @@ const WorkoutForm = ({ onAddWorkout }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    alert("Added to list!")
     const configObj = {
       method: "POST",
       headers: {

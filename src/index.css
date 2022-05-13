@@ -299,4 +299,13 @@ header h1 a:hover {
   max-width: 1000px;
   display: center;
   margin-bottom: 2rem;
+  border-radius: 2%;
+}
+.homeImg {
+  width: 300px;
+  height: 400px;
+  max-width: 1000px;
+  display: center;
+  margin-bottom: 2rem;
+  border-radius: 2%;
 }
