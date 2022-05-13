@@ -7,21 +7,29 @@ const Header = ({ isDarkMode, onToggleDarkMode }) => {
   return (
     <header>
       <nav>
-      <Link to="/" style={{borderBottom: "none"}}>
+
+      <Link to="/"><span className="logo">{"🏋️"}</span>
+          Workout App</Link>
+         
+         |  <Link to="/workouts">All Workouts</Link>
+        
+        <Link to="/workouts/new"> Add Workout</Link>
+        <button onClick={onToggleDarkMode}>{buttonTextContent}</button>
+      {/* <Link to="/" style={{borderBottom: "none"}}>
         <h1 className="branding">
           <span className="logo">{"🏋️"}</span>
           Workout App
         </h1>
         </Link>
         <div className="navigation">
-          <NavLink className="button" exact to="workouts">
+          <Link className="button" to="/workouts">
             All Workouts
-          </NavLink>
-          <NavLink className="button" exact to="workouts/new">
+          </Link>
+          <Link className="button" to="/workouts/new">
             Add Workout
-          </NavLink>
+          </Link>
           <button onClick={onToggleDarkMode}>{buttonTextContent}</button>
-        </div>
+        </div> */}
       </nav>
     </header>
   );

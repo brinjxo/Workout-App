@@ -10,7 +10,15 @@ const WorkoutListItem = ({
 
   const [likeCount, setLikeCount] = useState(0);
 
-  const handleLike = (likeCount) => setLikeCount(likeCount + 1);
+  const handleLike = (e) => {
+    const btnInfo = e.target.innerText.split(' ')
+    const heart = btnInfo[0]
+    let count = parseInt(btnInfo[1])
+    // count
+    // debugger
+    setLikeCount( ' ' + (count+= 1))
+
+  }
 
   const handleDeleteClick = () => {
     fetch(`http://localhost:4000/workouts/${id}`, {
@@ -26,7 +34,7 @@ const WorkoutListItem = ({
       <figure className="image">
         <img src={image} alt={name} />
         <button onClick={handleLike} className="likes">
-          ❤️{likeCount}
+          ❤️ {likeCount}
         </button>
       </figure>
 
@@ -37,9 +45,9 @@ const WorkoutListItem = ({
 
       <footer className="extra">
         <div className="manage">
-          <Link to={`/workouts/${id}/edit`} className="button">
+          {/* <Link to={`/workouts/${id}/edit`} className="button">
             <FaPencilAlt />
-          </Link>
+          </Link> */}
           <button onClick={handleDeleteClick}>
             <FaTrash />
           </button>

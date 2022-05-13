@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+
 
 import Header from "./components/Header";
 import WorkoutForm from "./components/WorkoutForm";
@@ -48,13 +50,29 @@ const App = () => {
 
   return (
     <div className={isDarkMode ? "App" : "App light"}>
+      {/* <Router> */}
       <Header isDarkMode={isDarkMode} onToggleDarkMode={onToggleDarkMode} />
-
+      
       <Switch>
-        <Route exact path="/">
-          <Home />
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/workouts">
+            {/* <h2>workoutlist</h2> */}
+          <WorkoutList
+            workouts={workouts}
+            onDeleteWorkout={onDeleteWorkout}/>
+          </Route>
+          <Route exact path="/workouts/new">
+          <WorkoutForm onAddWorkouts={onAddWorkouts} />
+          </Route>
+        </Switch>
+        {/* </Router> */}
+      {/* <Switch>
+        <Route exact path="/" element={<Home />}/>
+          <h2>Home</h2>
         </Route>
-        <Route path="/workouts/new">
+        <Route exact path="/workouts/new">
           <WorkoutForm onAddWorkouts={onAddWorkouts} />
         </Route>
         <Route path="/workouts/:id/edit">
@@ -64,15 +82,16 @@ const App = () => {
           />
         </Route>
         <Route path="/workouts/:id">
-          <WorkoutDetail />
+          <WorkoutDetail /> 
         </Route>
-        <Route path="/workouts">
+        <Route exact path="/workouts" element={<h2>WorkoutList</h2>}/>
+          <h2>WorkoutList</h2>
           <WorkoutList
             workouts={workouts}
             onDeleteWorkout={onDeleteWorkout}
           />
-        </Route>
-      </Switch>
+        </Route> 
+      </Switch> */}
     </div>
   );
 };

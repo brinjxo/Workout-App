@@ -17,7 +17,11 @@ const Home = () => {
       <h2 style={{ fontSize: "3rem" }}>View Awesome Workouts.</h2>
       <h3>Recent Workouts:</h3>
       {recentWorkouts.map((workout) => (
-        <p key={workout.id}>{workout.name}</p>
+        <div key={workout.id}>
+          <h2>{workout.name}</h2>
+          <img src={workout.image} alt={workout.name} />
+          <p >{workout.about}</p>
+        </div>
       ))}
       <div style={{ margin: "1rem 0" }}>
         <a className="button" href="/workouts">
