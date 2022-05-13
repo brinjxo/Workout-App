@@ -7,15 +7,14 @@ const Header = ({ isDarkMode, onToggleDarkMode }) => {
   return (
     <header>
       <nav>
-
+{/* 
       <Link to="/"><span className="logo">{"🏋️"}</span>
           Workout App</Link>
          
-         |  <Link to="/workouts">All Workouts</Link>
-        
-        <Link to="/workouts/new"> Add Workout</Link>
-        <button onClick={onToggleDarkMode}>{buttonTextContent}</button>
-      {/* <Link to="/" style={{borderBottom: "none"}}>
+         |  <Link to="/workouts">    All Workouts</Link>
+        <Link to="/workouts/new">               Add Workout</Link>
+        <button onClick={onToggleDarkMode}>{buttonTextContent}</button> */}
+      <Link to="/" style={{borderBottom: "none"}}>
         <h1 className="branding">
           <span className="logo">{"🏋️"}</span>
           Workout App
@@ -29,7 +28,7 @@ const Header = ({ isDarkMode, onToggleDarkMode }) => {
             Add Workout
           </Link>
           <button onClick={onToggleDarkMode}>{buttonTextContent}</button>
-        </div> */}
+        </div>
       </nav>
     </header>
   );

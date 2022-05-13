@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 const Home = () => {
   const [recentWorkouts, setRecentWorkouts] = useState([]);
 
+  
+
   useEffect(() => {
     // fetch the 3 most recently added workouts from json-server
     fetch("http://localhost:4000/workouts?_sort=id&_order=desc&_limit=3")
@@ -20,7 +22,7 @@ const Home = () => {
         <div key={workout.id}>
           <h2>{workout.name}</h2>
           <img src={workout.image} alt={workout.name} />
-          <p >{workout.about}</p>
+          {/* <p >{workout.about}</p> */}
         </div>
       ))}
       <div style={{ margin: "1rem 0" }}>

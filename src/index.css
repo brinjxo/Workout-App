@@ -32,6 +32,7 @@ body {
   font-size: 18px;
   color: var(--color);
   background-color: var(--background);
+  align-content: center;
 }
 
 .App {
@@ -130,10 +131,12 @@ header {
   margin: 0 auto;
   border: none;
   padding: 1.75rem;
+  align-content: center;
 }
 
 .form h3 {
   margin-bottom: 1rem;
+  align-content: center;
 }
 
 input,
@@ -176,14 +179,17 @@ select:focus {
 /* cards */
 .cards {
   list-style: none;
+  align-content: center;
 }
 
 .card {
   margin: 1rem;
+  align-content: center;
 }
 
 .card img {
   width: 100%;
+  align-content: center;
 }
 
 .card button {
@@ -194,22 +200,26 @@ select:focus {
   .cards {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
   }
 
   .card {
     width: calc(33% - 2rem);
+    align-content: center;
   }
 }
 
 @media (min-width: 1024px) {
   .card {
     width: calc(25% - 2rem);
+    align-content: center;
   }
 }
 
 @media (min-width: 1200px) {
   .card {
     width: calc(20% - 2rem);
+    align-content: center;
   }
 }
 
@@ -218,6 +228,7 @@ select:focus {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   margin: 0.25rem;
+  align-content: center;
 }
 
 .badge.blue {
